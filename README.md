@@ -1,5 +1,6 @@
 Project Title:
 
+
 Flask DevOps CI/CD Project
 
 A simple Flask application that uses a CI/CD pipeline with Docker and GitHub Actions to automatically deploy to Docker Hub.
