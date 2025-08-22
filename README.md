@@ -1,8 +1,9 @@
-Project Title
+Project Title:
 
 Flask DevOps CI/CD Project
 
 A simple Flask application that uses a CI/CD pipeline with Docker and GitHub Actions to automatically deploy to Docker Hub.
+
 
 Project Objective:
 
@@ -16,8 +17,10 @@ Automated Pipeline: Implementing CI/CD (Continuous Integration / Continuous Depl
 
 Cloud Deployment: Deploying the Docker container on an AWS EC2 server.
 
+
 File Structure
-.
+
+
 ├── .github/
 │   └── workflows/
 │       └── build-and-push.yml  # GitHub Actions pipeline
@@ -26,8 +29,10 @@ File Structure
 └── Dockerfile                  # Instructions for building the Docker image
 
 
+
 Getting Started
 To run this project locally, ensure you have Git, Docker Desktop, and WSL installed on your system.
+
 
 1. Clone the project:
 
@@ -54,7 +59,8 @@ Push the image to Docker Hub.
 
 Important: For the pipeline to work, you must add two secrets to your GitHub repository settings: DOCKER_USERNAME and DOCKER_HUB_TOKEN.
 
-Contact
-If you have any questions, feel free to contact me.
 
-mazid.info67@gmail.com
+Contact
+For any questions or collaboration, feel free to reach out:
+Md Mazid Hossain
+📩 Email: mazid.info67@gmail.com
